@@ -29,7 +29,17 @@ module.exports = appInfo => {
       options: {},   
     }, 
   };
-    
+   
+  exports.mongo = {
+    client: {
+      host: '127.0.0.1',
+      port: '27017',
+      name: 'example',
+      user: '',
+      password: '',
+      options: {},
+    },
+  };
 
   return {
     ...config,

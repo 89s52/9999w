@@ -11,10 +11,12 @@ module.exports = app => {
   router.get('/user', controller.user.index);
 
 
+
   router.get('/user/add', controller.user.addUser);
   router.get('/user/edit', controller.user.editUser);
   router.get('/user/remove', controller.user.removeUser);
   
+  router.get('/news', controller.news.index);
 
   
 };
