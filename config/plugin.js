@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 /** @type Egg.EggPlugin */
 // module.exports = {
@@ -8,10 +8,10 @@
 // }
 // };
 
-//启用 egg-mongoose 插件
+// 启用 egg-mongoose 插件
 exports.mongoose = {
-  enable: true, 
-  package: 'egg-mongoose', 
+  enable: true,
+  package: 'egg-mongoose',
 };
 
 // exports.mongo = {

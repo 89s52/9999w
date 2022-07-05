@@ -25,11 +25,11 @@ module.exports = appInfo => {
 
   exports.mongoose = {
     client: {
-      url: 'mongodb://127.0.0.1/example', 
-      options: { useUnifiedTopology: true },   
-    }, 
+      url: 'mongodb://127.0.0.1/example',
+      options: { useUnifiedTopology: true },
+    },
   };
-   
+
   // exports.mongo = {
   //   client: {
   //     host: '127.0.0.1',
