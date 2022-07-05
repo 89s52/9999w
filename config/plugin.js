@@ -9,12 +9,12 @@ module.exports = {
 };
 
 //启用 egg-mongoose 插件
-// exports.mongoose = {
-//   enable: true, 
-//   package: 'egg-mongoose', 
-// };
-
-exports.mongo = {
-  enable: true,
-  package: 'egg-mongo-native',
+exports.mongoose = {
+  enable: true, 
+  package: 'egg-mongoose', 
 };
+
+// exports.mongo = {
+//   enable: true,
+//   package: 'egg-mongo-native',
+// };

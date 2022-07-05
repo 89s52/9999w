@@ -26,25 +26,24 @@ module.exports = appInfo => {
   exports.mongoose = {
     client: {
       url: 'mongodb://127.0.0.1/example', 
-      options: {},   
+      options: { useUnifiedTopology: true },   
     }, 
   };
    
-  exports.mongo = {
-    client: {
-      host: '127.0.0.1',
-      port: '27017',
-      name: 'example',
-      user: '',
-      password: '',
-      options: {},
-    },
-  };
+  // exports.mongo = {
+  //   client: {
+  //     host: '127.0.0.1',
+  //     port: '27017',
+  //     name: 'example',
+  //     user: '',
+  //     password: '',
+  //     options: {},
+  //   },
+  // };
 
   return {
     ...config,
     ...userConfig,
   };
 };
-
 

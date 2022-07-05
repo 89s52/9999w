@@ -6,7 +6,6 @@ class UserController extends Controller {
   async index() {
 
 
-
     var userList=await this.service.user.getUserList();
     console.log(userList);       
   
@@ -26,7 +25,6 @@ class UserController extends Controller {
 
     var result=await user.save();
     console.log(result)
-
 
 
     this.ctx.body='增加用户成功';
