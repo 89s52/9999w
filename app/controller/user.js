@@ -18,8 +18,24 @@ class UserController extends Controller {
     // 增加数据
 
     const user = new this.ctx.model.User({
-      username: '李四',
-      password: '123456',
+    OrderNumber: '00002',
+    FullName: '黄剑',
+    PassportNo: '亿万富翁',
+    DepartureFlightNumber: '12fgeewr56',
+    TimeOfEntry: '12fwgre3g6',
+    ArriveAtTheAirport: '123eg456',
+    FlightNumber: '1234efqw4g56',
+    EnglishName: '1234efwgrq56',
+    Gender: '1reqwr423456',
+    DateOfBirth: '1egar23456',
+    Nationality: '1feqweg23456',
+    PassportIssueDate: '1efw23456',
+    PassportPeriodOfValidity: '12gwege3456',
+    DepartureDate: '1ewgh23456',
+    DepartureCity: '12fwegf3456',
+    Type: '1grre23456',
+    Status: '12sdg3456',
+
 
     });
 
